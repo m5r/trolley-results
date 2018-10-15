@@ -11,6 +11,7 @@ class App extends Component {
 	};
 
 	componentWillMount() {
+		this.fetchData();
 		setInterval(
 			() => this.fetchData(),
 			5000,
